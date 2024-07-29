@@ -5,6 +5,30 @@
     box-sizing: border-box;
 }
 
+.nav {
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 20px;
+    background-color: black;
+    padding: 1em;
+    text-align: center;
+}
+
+.nav ul {
+    list-style: none; /* remove bullet points */
+    justify-content: none; /* space the links evenly */
+}
+
+.nav a {
+    text-align: center;
+    color: #fff; /* link color */
+    text-decoration: none; /* remove underline */
+}
+
+.nav a:hover {
+    color: #ccc; /* link hover color */
+}
+
 .email a,.nmr a {
     text-decoration: none!important;
     color: inherit!important;
