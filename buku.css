@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    html {
+        flex-direction: column;
+    }
+}
+
+#mastaka {
+    text-align: center;
+}
+
+.raga {
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    border-radius: 0%;
+    -webkit-border-radius: 0%;
+    -moz-border-radius: 0%;
+    -ms-border-radius: 0%;
+    -o-border-radius: 0%;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: azure;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+article {
+    text-align: center;
+    color: cadetblue;
+}
