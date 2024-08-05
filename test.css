@@ -5,28 +5,30 @@
     box-sizing: border-box;
 }
 
-.nav {
-    margin: 0 auto;
-    width: 50%;
-    border-radius: 20px;
-    background-color: black;
+.bass {
+    background-color: #333;
     padding: 1em;
     text-align: center;
 }
 
-.nav ul {
-    list-style: none; /* remove bullet points */
-    justify-content: none; /* space the links evenly */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
 }
 
-.nav a {
-    text-align: center;
-    color: #fff; /* link color */
-    text-decoration: none; /* remove underline */
+nav li {
+    margin-right: 10px;
 }
 
-.nav a:hover {
-    color: #ccc; /* link hover color */
+nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    color: #ccc;
 }
 
 .email a,.nmr a {
